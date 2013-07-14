@@ -1,0 +1,36 @@
+/*===== o0o: STRUCTURE =====*/
+#fixed {
+width:780px;   		/* you can use px, em or % */
+}
+.rightmenu .colleft {
+right:30%;			/* right column width */
+background:#fff;	/* left column background colour */
+border-right:solid 1px #eaeaea;
+}
+.rightmenu .col1 {
+width:66%;			/* left column content width (left column width minus left and right padding) */
+left:32%;			/* (right column width) plus (left column left padding) */
+}
+.rightmenu .col2 {
+width:26%;			/* right column content width (right column width minus left and right padding) */
+left:36%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+font-size:1em;
+line-height:1.6em;
+}
+.col3 {
+display:none
+}
+#header {
+background:url(../images/r755-2c.jpg) right no-repeat;
+}
+
+/*===== o0o: FORMS =====*/
+div#search form#searchform{
+width:180px;
+}
+div#search form#searchform .searchinput{
+width:145px;
+}
+div#search form#searchform .button{
+left:155px;
+}
